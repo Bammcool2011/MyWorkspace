@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p id="demo">This is paragraph</p>
+      <button type="button" onclick="myFunction();">Change Content</button>
+
+      <script>
+        document.write("Hello JS");
+
+        alert("Hello This is an alert");
+
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Hello World!";
+        }
+
+        console.log("Hello From Console");
+      </script>
+    </div>
+  </body>
+</html>
